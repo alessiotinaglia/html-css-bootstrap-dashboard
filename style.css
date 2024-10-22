@@ -14,5 +14,10 @@
     width: 18%;
 }
 
+@media screen and (max-width: 576px){
+    .at-d-none{
+        display: none;
+    }
+}
 
 
