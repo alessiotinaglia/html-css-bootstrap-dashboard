@@ -14,19 +14,52 @@
 </head>
 
 <body>
+    <!-- Inizio Navbar -->
     <header>
-        <nav>
-
+        <nav class="navbar navbar-expand-lg bg-dark text-white" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/duck.png" alt="Logo" class="at-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catalogo Libri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Anagrafica Utenti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storico Prestiti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <section class="container-md">
-        <div class="d-flex justify-content-between">
-            <div>
-                <h2></h2>
+
+    <section>
+        <div class="container-md">
+            <div class="d-flex justify-content-between py-3">
+                    <h2>Catalogo Libri</h2>
+                    <button type="button" class="btn btn-primary">Aggiungi Libro</button>             
             </div>
-            <div></div>
         </div>
+    </section>
+
+    <section>
         <!-- Tabella -->
         <div class="container-md">
             <table class="table table-striped table-hover">
@@ -76,7 +109,7 @@
                 <!-- Terza colonna -->
                 <tr>
                     <td class="border">
-                        Il signiore degli anelli 
+                        Il signiore degli anelli
                     </td>
                     <td class="border">
                         18/10/2023
@@ -94,7 +127,7 @@
                 <!-- Quarta colonna -->
                 <tr>
                     <td class="border">
-                        Harry Potter e la pietra filosofale 
+                        Harry Potter e la pietra filosofale
                     </td>
                     <td class="border">
                         -
@@ -112,9 +145,9 @@
                 <!-- Quinta colonna -->
                 <tr>
                     <td class="border">
-                        Il codice Da Vinci 
+                        Il codice Da Vinci
                     </td>
-                    <td class="border">                        
+                    <td class="border">
                         -
                     </td>
                     <td class="border">
@@ -148,7 +181,7 @@
                 <!-- Settima colonna -->
                 <tr>
                     <td class="border">
-                        La divina commedia 
+                        La divina commedia
                     </td>
                     <td class="border">
                         21/09/2023
@@ -238,7 +271,7 @@
                 <!-- Dodicesima colonna -->
                 <tr>
                     <td class="border">
-                        La storia infinita 
+                        La storia infinita
                     </td>
                     <td class="border">
                         -
