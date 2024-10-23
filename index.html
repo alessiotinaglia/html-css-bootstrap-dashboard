@@ -29,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Catalogo Libri</a>
@@ -48,22 +48,20 @@
             </div>
         </nav>
     </header>
-
-
+    <!-- Inizio Tabella -->
     <section>
         <div class="container-md">
             <div class="d-flex justify-content-between py-3">
                     <h2>Catalogo Libri</h2>
-                    <button type="button" class="btn btn-primary">Aggiungi Libro</button>             
+                    <a type="button" class="btn btn-primary active" href="./pages/addbook.html">Aggiungi Libro</a>             
             </div>
         </div>
     </section>
 
     <section>
-        <!-- Tabella -->
+        <!-- Intestazione tabella -->
         <div class="container-md">
             <table class="table table-striped table-hover">
-                <!-- Intestazione tabella -->
                 <thead>
                     <th class="w-50">Titolo</th>
                     <th class="at-w18 at-d-none">Data prestito</th>
@@ -288,18 +286,6 @@
                 </tr>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- link js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
